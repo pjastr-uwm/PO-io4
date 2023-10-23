@@ -21,10 +21,10 @@ public class G3 {
 
     public static int minimumValue(ArrayList<Integer> arg)
     {
-        //if(arg == null || arg.isEmpty())
-        //{
-        //    throw new IllegalArgumentException("Lista tablicowa jest pusta lub nullem");
-        //}
+//        if(arg == null || arg.isEmpty())
+//        {
+//            throw new IllegalArgumentException("Lista tablicowa jest pusta lub nullem");
+//        }
         int temp = arg.get(0);
         for(int elem: arg)
         {
